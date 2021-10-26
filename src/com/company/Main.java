@@ -56,7 +56,7 @@ public class Main {
         int x;
         int y;
         do {
-            System.out.println("Введите координаты: X Y (1-3)");
+            System.out.println("Введите координаты: X (1-" + SIZE_X + ") Y (1-" + SIZE_Y + ")");
             x = scanner.nextInt() - 1;
             y = scanner.nextInt() - 1;
         } while (!isCellValid(y,x));
